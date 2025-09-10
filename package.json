@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "ditsmod",
+  "type": "module",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">= 20.6.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "license": "MIT",
+  "packageManager": "yarn@4.9.4"
+}

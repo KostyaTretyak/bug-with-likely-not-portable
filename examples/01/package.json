@@ -1,0 +1,13 @@
+{
+  "name": "01",
+  "type": "module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -r dist*",
+    "build": "tsc -b tsconfig.build.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
